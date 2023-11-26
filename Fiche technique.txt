@@ -1,0 +1,17 @@
+						Fiche Technique - Déduplication des Annonces Immobilières
+Objectif : Dédupliquer les annonces immobilières pour améliorer la recherche et obtenir des statistiques plus précises.
+
+Méthodologie :
+Chargement des Données : Extraction des données à partir d'un fichier CSV.
+
+Nettoyage : Suppression de colonnes inutiles, gestion des valeurs manquantes et conversion des dates.
+
+Déduplication : Utilisation de la distance de Levenshtein (fuzzywuzzy) pour comparer les descriptions et attribuer des identifiants de déduplication.
+
+Analyse : Présentation des statistiques avant et après la déduplication.
+
+Résultats : Réduction du nombre d'annonces similaires pour des données de meilleure qualité.
+
+Fichier CSV : Télécharger le fichier CSV
+
+Notebook : Le code source et la méthodologie complète sont disponibles dans le notebook Python joint à cet envoi.
